@@ -1,5 +1,6 @@
 
-# Résumé (1 page)
+# Résumé (1 page): Les participants:
+ Brian Sindihebura, Youssef Sabri, Ali Badara Sow 
 
 dossier ads_graph: contient le code source principal
 
