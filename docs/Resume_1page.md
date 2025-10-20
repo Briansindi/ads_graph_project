@@ -1,6 +1,18 @@
 
 # Résumé (1 page)
 
+dossier ads_graph: contient le code source principal
+
+demo.py: contient le script principal pour la simulation
+
+graph.py: modélisation du graph publicitaire
+
+metrics.py: définit la métrique dY(u,v)
+
+search.py: contient les 2 stratégies (naïve / BFS)
+
+heuristics.py: Implémentation PCA + ANN
+
 Nous modélisons la recherche publicitaire comme une **requête de voisinage pondéré** dans un graphe de profils (50 traits). La distance
 \\( d_Y(u,v)=\sum_i y_i (u_i-v_i)^2 \\) permet d’orienter la similarité selon un vecteur de poids \\(Y\\) (ex. accentuer le budget ou les centres d’intérêt).
 Nous générons un graphe **kNN approximatif** (k=8) pour capter la proximité locale.
